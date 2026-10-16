@@ -327,3 +327,9 @@ section.block{padding:4.5rem 0;border-bottom:1px solid var(--border)}
 .stats-band .stat span{color:rgba(246,243,236,.72)}
 .stats-band a.stat:hover b{color:#fff}
 @media (max-width:860px){.stats-band .stat:nth-child(-n+2){border-bottom-color:rgba(246,243,236,.15)}}
+
+/* section separation */
+.hero{padding-bottom:3.5rem}
+section.block.alt-bg{background:var(--paper-mid)}
+section.block{border-bottom:0}
+.block .chapter-tag{margin-bottom:.4rem}
