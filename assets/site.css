@@ -318,3 +318,12 @@ section.block{padding:4.5rem 0;border-bottom:1px solid var(--border)}
   .row span.r{text-align:left}
   section.block{padding:3.2rem 0}
 }
+
+/* navy stats band */
+.stats-band{background:var(--ink);color:var(--paper)}
+.stats-band .stats{border-bottom:0}
+.stats-band .stat{border-right-color:rgba(246,243,236,.15)}
+.stats-band .stat b{color:var(--cork)}
+.stats-band .stat span{color:rgba(246,243,236,.72)}
+.stats-band a.stat:hover b{color:#fff}
+@media (max-width:860px){.stats-band .stat:nth-child(-n+2){border-bottom-color:rgba(246,243,236,.15)}}
